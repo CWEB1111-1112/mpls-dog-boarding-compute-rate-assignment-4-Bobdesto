@@ -7,7 +7,7 @@ namespace assignment_four
         static void Main(string[] args)
         {
             //Global Declarations
-            houseKeeping("")
+            houseKeeping("Welcome")
         }
 
         //Overloaded method with one argument
