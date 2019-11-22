@@ -5,9 +5,8 @@ namespace assignment_four
     
     class Program
     {
-        public class ComputeRate
-        {
-            public void computeRate(int numDays)
+        
+            public int computeRate(int numDays)
             {
                  //prompting user to enter the number of days for cares
                 Console.WriteLine("please enter the number of days to stay");
@@ -17,10 +16,15 @@ namespace assignment_four
                 int rate= 75;
 
                 total= numDays * rate;
+                
+                return total;
 
             }//End of computeRate with one parameter
 
-            public void computeRate(int numDays, string code)
+
+
+           
+        public void computeRate(int numDays, string code)
             {
                 //prompting user to enter the number of days for cares and  code choice
                 Console.WriteLine("please enter the number of days to stay");
@@ -32,27 +36,28 @@ namespace assignment_four
 
                 switch(code)
                 {
-                    case A:
+                    case "A":
                     {
-                        Console.WriteLine($"You chose", + "A" +"Your price is ")
+                        Console.WriteLine($"You selected" + "A" +"Your price is ");
+                        break;
+
 
                     }
+                    default:
+                    {break;}
                 }
                 
 
             }// end of computeRate with two parameters
 
-        }//end of ComputeRate class
        public  static void Main(string[] args)
        {
            
             //Global Declarations
-            int numDays, number1= 169;
+            int numDays;
+            
+
             string code;
-
-            string code= Convert.string(number1)
-
-            ComputeRate comp= new ComputeRate();
             Console.WriteLine("Enter the number of days");
             int numDays=Convert.ToInt32(Console.ReadLine());
 
