@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\checheb\\Desktop\\Assignment-Four\\assignment_four.csproj",
+      "projectUniqueName": "C:\\Users\\checheb\\Desktop\\Assignment-Four\\assignment_four.csproj",
       "projectName": "assignment_four",
-      "projectPath": "c:\\Users\\checheb\\Desktop\\Assignment-Four\\assignment_four.csproj",
-      "outputPath": "c:\\Users\\checheb\\Desktop\\Assignment-Four\\obj\\",
+      "projectPath": "C:\\Users\\checheb\\Desktop\\Assignment-Four\\assignment_four.csproj",
+      "outputPath": "C:\\Users\\checheb\\Desktop\\Assignment-Four\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/assignment_four.dll": "c:\\Users\\checheb\\Desktop\\Assignment-Four\\bin\\placeholder\\netcoreapp1.1\\assignment_four.dll"
+        "lib/netcoreapp1.1/assignment_four.dll": "C:\\Users\\checheb\\Desktop\\Assignment-Four\\bin\\placeholder\\netcoreapp1.1\\assignment_four.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
